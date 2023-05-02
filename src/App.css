@@ -12,16 +12,26 @@
   color: #262626;
 }
 .bg-dark-primary {
-  background-color: #fcbc73 !important;
+  background-color: #f0eae3 !important;
 }
 .text-dark-primary {
-  color: #fcbc73 !important;
+  color: #f1e9e0 !important;
 }
-
-
 
 /*  Them Light  */
 
+.bg-light {
+  background-color: white;
+}
+.bg-light-2 {
+  background-color: #dadcde;
+}
+.bg-light-primary {
+  background-color: #191659 !important;
+}
+.text-light-primary {
+  color: #191659 !important;
+}
 
 
 /**/

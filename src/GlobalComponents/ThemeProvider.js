@@ -17,7 +17,9 @@ const ThemeProvider = ( { children }) => {
     }, [theme])
 
     const setThemeMode = mode => setTheme(mode)
+
   return (
+
     <ThemeContext.Provider value={{ theme, setThemeMode }}>
         {children}
     </ThemeContext.Provider>
@@ -25,8 +27,9 @@ const ThemeProvider = ( { children }) => {
 }
 
 const useThemeHook = () => {
-    const {theme} = useContext(ThemeContext)
+    const { theme } = useContext(ThemeContext)
+    return [theme]
 }
 
 
-export {ThemeProvider, ThemeContext}
+export { ThemeProvider, ThemeContext, useThemeHook }
